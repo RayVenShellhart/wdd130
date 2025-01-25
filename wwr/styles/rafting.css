@@ -41,7 +41,7 @@ nav {
 .stat img {
     height: auto;
     width: 50%;
-    float: inline-end;
+    float: right;
 }
 
 .stats {
