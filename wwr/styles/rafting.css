@@ -5,13 +5,42 @@
     --accent-color2: #11e48f; 
 }
 
+header {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    align-items: center;
+}
+
+
+
+.logo-box img {
+    margin: 0;
+    width: 90%;
+    height: auto;
+    vertical-align: bottom;
+} 
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    font-size: larger;
+    margin: -15px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
 main {
     background-color: var(--color);
     width: 100%;
 }
 nav {
     background-color: var(--background-color);
-    padding: 45px;
+    padding: 44px;
 }
 
 .hero {
