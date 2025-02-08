@@ -1,6 +1,6 @@
 :root {
     --background-color: #f26419;
-    --color: #5995ed;
+    --color: #0204ad;
     --accent-color: #ffeedd;
     --accent-color2: #11e48f; 
 }
@@ -32,6 +32,7 @@ header {
 
 .navigation a {
     text-decoration: none;
+    color: #000;
 }
 
 main {
@@ -78,7 +79,7 @@ nav {
     width: 100%;
     height: 40px;
     top: 15px;
-    background: radial-gradient(var(--background-color), var(--color));
+    background: radial-gradient(var(--color), gray);
     opacity: 0.8;
     text-align: center;
 }
@@ -117,6 +118,7 @@ h1, h2 {
     font-style: normal;
     color: var(--accent-color2);
     font-size: 30px;
+    text-align: center;
   }
 
 footer a {
@@ -124,7 +126,8 @@ footer a {
 }
 
 footer p {
-    margin-left: 35%;
+    margin-left: 40%;
+    color: #000;
 }
 
 footer {
@@ -134,4 +137,90 @@ footer {
     align-items: center;
     justify-content: end;
     justify-content: space-between;
+}
+
+/* for contact.html */
+
+.contact-info {
+    text-align: center;
+    font-size: larger;
+}
+
+form {
+    background-color: var(--background-color);
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    border-radius: 2rem;
+    display: grid;
+    grid-gap: 0.5rem;
+    color: #000;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    color: #000;
+    border-color: #000;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin-right: 5rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+button {
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 40px;
+    padding: 0.5rem;
+}
+
+button:hover {
+    background-color: #a9a9a9;
+}
+
+iframe {
+    display: grid;
+    width: auto; 
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.map {
+    justify-items: center;
+    align-items: center;
+}
+
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.wireframe{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.wireframe a{
+    text-decoration: none;
+    color: #000;
 }

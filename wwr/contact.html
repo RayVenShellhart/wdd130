@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact site for learning css">
+    <meta name="author" content="RayVen Kenneth Shellhart">
+    <title>Contact Info - Whitewater River Rafting Inc.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <img src="images/raft.webp" alt="logo">
+        </div>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Info</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact info</h1>
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="username">Email:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Message Purpose</legend>
+                <div class="form-item column1">
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" name="purpose" id="general">
+                    <label for="reservation">Reseveration Question</label>
+                    <input type="radio" name="purpose" id="reservation">
+                    <label for="website">Website Suggestion</label>
+                    <input type="radio" name="purpose" id="website">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <div class="form-item message-text">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" rows="4" placeholder="Type message here"></textarea>
+                </div>
+                <div class="">
+                    <label for="newspaper">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newspaper" name="newspaper">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Info</button>
+        </form>
+        <div class="contact-info">
+            <h2>Address</h2>
+            <p>Random place, Washington State</p>
+            <h2>Phone Numbers</h2>
+            <p>999-999-9999</p>
+            <p>888-888-8888</p>
+            <p>777-777-7777</p>
+            <p>666-666-6666 </p>
+            <p>555-555-5555</p>
+            <h2>Email</h2>
+            <p>FakeRafting@gmail.com</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1691807.815753239!2d-121.14979026538093!3d47.42201767935133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1738954119852!5m2!1sen!2sus" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <section class="employees">
+            <h2 class="heading2">Employees</h2>
+            <figure>
+                <img class="AD" src="images/employee1.webp" alt="employee leans on desk">
+                <figcaption>Happy employee leaning on desk</figcaption>
+            </figure>
+            <figure>
+                <img class="AD" src="images/employee2.webp" alt="Employee with pencil on ear">
+                <figcaption>Happy employee with pencil</figcaption>
+            </figure>    
+            <figure>
+                <img class="AD" src="images/employee3.webp" alt="Smiling employee">
+                <figcaption>Happy employee smiling</figcaption>
+            </figure>    
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Whitewater River Rafting Inc. RayVen Kenneth Shellhart</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="instagram">
+            </a>
+        </nav>
+    </footer>
+    <nav class="wireframe">
+        <a href="https://app.moqups.com/lcvD8jJLsyfzEuYCh2oi3a3HnLojSkdk/edit/page/ad64222d5">Wireframe Link</a>
+    </nav>
+</body>
+</html>
