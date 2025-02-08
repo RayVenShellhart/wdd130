@@ -3,6 +3,7 @@
     --color: #0204ad;
     --accent-color: #ffeedd;
     --accent-color2: #11e48f; 
+    --text-color2: #000;
 }
 
 header {
@@ -32,7 +33,7 @@ header {
 
 .navigation a {
     text-decoration: none;
-    color: #000;
+    color: var(--text-color2);
 }
 
 main {
@@ -62,7 +63,7 @@ nav {
     bottom: 25px;
 	right: 25px;
 	background: var(--color);
-	border: 1px solid #000;
+	border: 1px solid var(--text-color2);
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
     width: 50%;
@@ -127,7 +128,7 @@ footer a {
 
 footer p {
     margin-left: 40%;
-    color: #000;
+    color: var(--text-color2);
 }
 
 footer {
@@ -154,7 +155,7 @@ form {
     border-radius: 2rem;
     display: grid;
     grid-gap: 0.5rem;
-    color: #000;
+    color: var(--text-color2);
 }
 
 fieldset {
@@ -162,8 +163,8 @@ fieldset {
     grid-gap: 0.5rem;
     margin: 1rem;
     padding: 1rem;
-    color: #000;
-    border-color: #000;
+    color: var(--text-color2);
+    border-color: var(--text-color2);
 }
 
 .form-item {
@@ -222,5 +223,5 @@ iframe {
 
 .wireframe a{
     text-decoration: none;
-    color: #000;
+    color: var(--text-color2);
 }
