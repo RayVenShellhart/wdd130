@@ -6,6 +6,10 @@
     --text-color2: #000;
 }
 
+* {
+    text-decoration: none;
+}
+
 header {
     margin: 0;
     display: grid;
@@ -224,4 +228,79 @@ iframe {
 .wireframe a{
     text-decoration: none;
     color: var(--text-color2);
+}
+
+/* Trips */
+
+.trips_table {
+    display: grid;
+    align-content: start;
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: auto;
+    height: 700px;
+    background-color: var(--background-color);
+    color: var(--text-color2);
+  }
+  
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+thead, tfoot {
+    background-color: black;
+    color: white;
+  }
+  
+th, td {
+    border: 1px solid;
+    padding: 8px 10px;
+  }
+  
+td:last-of-type {
+    text-align: center;
+  }
+  
+
+  
+tfoot th {
+    text-align: right;
+  }
+  
+tfoot td {
+    font-weight: bold;
+  }
+
+.trip {
+    display: flex;
+    justify-content: space-around;
+}
+
+.trip_description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+}
+
+.trips {
+    padding: 10px;
+    justify-items: center;
+    text-align: center;
+}
+
+p a {
+    color: var(--accent-color2);
+}
+
+.trips_contact {
+    text-align: center;
+    margin-bottom: 10%;
 }
